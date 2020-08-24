@@ -6,7 +6,11 @@ class Employee:
         self.email = first + '.' + last + '@company.org'
         self.gender = 'm'
 
-    def
+    def getPay(self):
+        return self.pay
+
+
+      
 
 class Manager:
     def __init__(self, level,pay):
